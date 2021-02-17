@@ -8,7 +8,7 @@ authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 {{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}.console.run:cli"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
